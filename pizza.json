@@ -1,0 +1,194 @@
+[
+  {
+    "id": "pepperoni",
+    "name": "Pepperoni",
+    "description": "Classic pepperoni with mozzarella cheese",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "margherita",
+    "name": "Margherita",
+    "description": "Tomato sauce, fresh mozzarella, and basil",
+    "sizes": { "S": 6.99, "M": 9.99, "L": 12.99 }
+  },
+  {
+    "id": "veggie",
+    "name": "Veggie",
+    "description": "Peppers, onions, mushrooms, and olives",
+    "sizes": { "S": 7.49, "M": 10.49, "L": 13.49 }
+  },
+  {
+    "id": "bbq-chicken",
+    "name": "BBQ Chicken",
+    "description": "Chicken, BBQ sauce, red onions, and cheese",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  },
+  {
+    "id": "hawaiian",
+    "name": "Hawaiian",
+    "description": "Ham, pineapple, and mozzarella cheese",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "buffalo",
+    "name": "Buffalo Chicken",
+    "description": "Spicy buffalo chicken and ranch drizzle",
+    "sizes": { "S": 8.99, "M": 11.99, "L": 14.99 }
+  },
+  {
+    "id": "meatlovers",
+    "name": "Meat Lovers",
+    "description": "Pepperoni, sausage, ham, and bacon",
+    "sizes": { "S": 9.49, "M": 12.49, "L": 15.49 }
+  },
+  {
+    "id": "four-cheese",
+    "name": "Four Cheese",
+    "description": "Mozzarella, cheddar, parmesan, and provolone",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "supreme",
+    "name": "Supreme",
+    "description": "Pepperoni, sausage, peppers, onions, olives, mushrooms",
+    "sizes": { "S": 9.99, "M": 12.99, "L": 15.99 }
+  },
+  {
+    "id": "spinach-feta",
+    "name": "Spinach & Feta",
+    "description": "Fresh spinach, feta cheese, and garlic",
+    "sizes": { "S": 7.49, "M": 10.49, "L": 13.49 }
+  },
+  {
+    "id": "white-pizza",
+    "name": "White Pizza",
+    "description": "Garlic sauce, ricotta, mozzarella, and parmesan",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "description": "Loaded with fresh mushrooms and mozzarella",
+    "sizes": { "S": 7.49, "M": 10.49, "L": 13.49 }
+  },
+  {
+    "id": "bacon-cheeseburger",
+    "name": "Bacon Cheeseburger",
+    "description": "Ground beef, bacon, cheddar, and pickles",
+    "sizes": { "S": 8.99, "M": 11.99, "L": 14.99 }
+  },
+  {
+    "id": "philly-steak",
+    "name": "Philly Steak",
+    "description": "Steak, onions, peppers, and provolone",
+    "sizes": { "S": 9.49, "M": 12.49, "L": 15.49 }
+  },
+  {
+    "id": "chicken-alfredo",
+    "name": "Chicken Alfredo",
+    "description": "Creamy Alfredo sauce with grilled chicken",
+    "sizes": { "S": 8.99, "M": 11.99, "L": 14.99 }
+  },
+  {
+    "id": "taco-pizza",
+    "name": "Taco Pizza",
+    "description": "Seasoned beef, lettuce, tomato, cheddar, and salsa",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  },
+  {
+    "id": "greek",
+    "name": "Greek",
+    "description": "Olives, feta, tomato, onions, and oregano",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "cheeseburger",
+    "name": "Cheeseburger Pizza",
+    "description": "Ground beef, cheddar, onions, ketchup drizzle",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  },
+  {
+    "id": "sausage",
+    "name": "Italian Sausage",
+    "description": "Classic Italian sausage and mozzarella",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "pesto",
+    "name": "Pesto Pizza",
+    "description": "Basil pesto sauce with mozzarella and tomato",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "chicken-bacon-ranch",
+    "name": "Chicken Bacon Ranch",
+    "description": "Ranch base with chicken, bacon, and mozzarella",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  },
+  {
+    "id": "shrimp-scampi",
+    "name": "Shrimp Scampi",
+    "description": "Garlic butter shrimp and parmesan cheese",
+    "sizes": { "S": 9.49, "M": 12.49, "L": 15.49 }
+  },
+  {
+    "id": "bbq-veggie",
+    "name": "BBQ Veggie",
+    "description": "BBQ sauce, peppers, onions, mushrooms",
+    "sizes": { "S": 7.49, "M": 10.49, "L": 13.49 }
+  },
+  {
+    "id": "chicken-parm",
+    "name": "Chicken Parmesan",
+    "description": "Breaded chicken, marinara, and mozzarella",
+    "sizes": { "S": 8.99, "M": 11.99, "L": 14.99 }
+  },
+  {
+    "id": "buffalo-veggie",
+    "name": "Buffalo Veggie",
+    "description": "Spicy buffalo sauce with mixed vegetables",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "artichoke",
+    "name": "Artichoke Delight",
+    "description": "Artichokes, spinach, and mozzarella",
+    "sizes": { "S": 7.49, "M": 10.49, "L": 13.49 }
+  },
+  {
+    "id": "bacon-ranch",
+    "name": "Bacon Ranch",
+    "description": "Bacon, mozzarella, and ranch drizzle",
+    "sizes": { "S": 7.99, "M": 10.99, "L": 13.99 }
+  },
+  {
+    "id": "spicy-italian",
+    "name": "Spicy Italian",
+    "description": "Spicy sausage, peppers, and hot sauce",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese",
+    "description": "Simple mozzarella and tomato sauce",
+    "sizes": { "S": 6.49, "M": 9.49, "L": 11.49 }
+  },
+  {
+    "id": "sicilian",
+    "name": "Sicilian",
+    "description": "Thick crust, tomato, herbs, and mozzarella",
+    "sizes": { "S": 9.49, "M": 12.49, "L": 15.49 }
+  },
+  {
+    "id": "california",
+    "name": "California Pizza",
+    "description": "Avocado, chicken, and fresh greens",
+    "sizes": { "S": 9.99, "M": 12.99, "L": 15.99 }
+  },
+  {
+    "id": "mediterranean",
+    "name": "Mediterranean",
+    "description": "Tomatoes, olives, feta, and spinach",
+    "sizes": { "S": 8.49, "M": 11.49, "L": 14.49 }
+  }
+]

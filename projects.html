@@ -5,50 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
-        <nav>
-            <ul >
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="https://github.com/akshithreddymar" target="_blank">GitHub</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/akshithreddymar" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project List -->
+    <div class="container mt-5">
         <h2>Project List</h2>
-        <ul style="display:inline-block ;text-align:center;"></ul>
-            <li><strong>Project 1</strong> - A simple website <a href="#">(View Project)</a></li>
-            <li><strong>Project 2</strong> - A weather app <a href="#">(View Project)</a></li>
-        </ul>
-    </section>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/project1.png" class="card-img-top" alt="Project 1 Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">A simple website.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/project2.png" class="card-img-top" alt="Project 2 Screenshot">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">A weather app.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <section>
-        <h2>Project Table</h2>
-        <table >
-            <tr>
-                <th>Project</th>
-                <th>Description</th>
-                <th>Image</th>
-            </tr>
-            <tr>
-                <td>Project 1</td>
-                <td>A portfolio website using HTML & CSS</td>
-                <td><img src="images/project1.png" alt="Project 1 Screenshot" width="100"></td>
-            </tr>
-            <tr>
-                <td>Project 2</td>
-                <td>A weather forecast web app</td>
-                <td><img src="images/project2.png" alt="Project 2 Screenshot" width="100"></td>
-            </tr>
-        </table>
-    </section>
-
-    <footer>
-        <p>© 2025 Akshith Reddy Musku | <a href="mailto:your-email@gmail.com">akshithreddymar@gmail.com</a></p>
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3 mt-5">
+        <p>© 2025 Akshith Reddy Musku | <a href="mailto:akshithreddymar@gmail.com" class="text-white">akshithreddymar@gmail.com</a></p>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
